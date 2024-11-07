@@ -24,12 +24,12 @@ public class Node {
 
     // 자식 추가
     public void addChildNode(Node childNode) {
-        childNodes.add(childNode);
+        this.childNodes.add(childNode);
     }
 
     // 자식 탐색
     private Node getChildNode(int index) {
-        return childNodes.get(index);
+        return this.childNodes.get(index);
     }
 
     // 가장 큰 값을 가진 자식 탐색
